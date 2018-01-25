@@ -8,28 +8,28 @@ export default () => (
     <Nav />
 
     <div className="hero">
-      <h1 className="title">Welcome to Next!</h1>
-      <p className="description">To get started, edit <code>pages/index.js</code> and save to reload.</p>
+      <h1 className="title">Welcome to resources.co!</h1>
+      <p className="description">Coming soon</p>
 
       <div className="row">
-        <Link href="https://github.com/zeit/next.js#getting-started">
+        <Link href="https://github.com/resources/console">
           <a className="card">
-            <h3>Getting Started &rarr;</h3>
-            <p>Learn more about Next on Github and in their examples</p>
+            <h3>Console &rarr;</h3>
+            <p>Quickly deploy a collaborative API console using only now, GitHub OAuth, and S3</p>
           </a>
         </Link>
-        <Link href="https://open.segment.com/create-next-app">
+        <Link href="https://github.com/resources/console/tree/master/components">
           <a className="card">
-            <h3>Examples &rarr;</h3>
+            <h3>Components &rarr;</h3>
             <p>
-              Find other example boilerplates on the <code>create-next-app</code> site
+              Use react and styled-jsx components to build your own interfaces to APIs
             </p>
           </a>
         </Link>
-        <Link href="https://github.com/segmentio/create-next-app">
+        <Link href="https://github.com/resources/snippets">
           <a className="card">
-            <h3>Create Next App &rarr;</h3>
-            <p>Was this tool helpful? Let us know how we can improve it</p>
+            <h3>Playground &rarr;</h3>
+            <p>Learn to build forms, dashboards, chatbots, and more with a library of interactive examples</p>
           </a>
         </Link>
       </div>
