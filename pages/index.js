@@ -2,6 +2,15 @@ import Link from 'next/link'
 import Head from '../components/head'
 import Nav from '../components/nav'
 
+const info = (
+  <Link href="https://github.com/resources/console">
+    <a className="card">
+      <h3>Get Info &rarr;</h3>
+      <p>Get information and relevant docs from a URL or a search</p>
+    </a>
+  </Link>
+)
+
 export default () => (
   <div>
     <Head title="Home" />
