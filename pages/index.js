@@ -50,12 +50,14 @@ export default () => (
       .title, .description {
         text-align: center;
       }
-      .row {
-        max-width: 880px;
-        margin: 80px auto 40px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
+      @media (min-width: 840px) {
+        .row {
+          max-width: 880px;
+          margin: 80px auto 40px;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+        }
       }
       .card {
         padding: 18px 18px 24px;
@@ -64,6 +66,12 @@ export default () => (
         text-decoration: none;
         color: #434343;
         border: 1px solid #9B9B9B;
+      }
+      @media (max-width: 839.999px) {
+        .card {
+          display: block;
+          margin: 10px auto;
+        }
       }
       .card:hover {
         border-color: #067df7;
